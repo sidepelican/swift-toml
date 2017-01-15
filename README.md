@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/jdfergason/swift-toml.svg?branch=master)](https://travis-ci.org/jdfergason/swift-toml)
 [![codebeat badge](https://codebeat.co/badges/21ffbe72-dd12-4d9d-ad01-cfdf423ea5fa)](https://codebeat.co/projects/github-com-jdfergason-swift-toml)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 # SwiftToml
 
@@ -72,6 +73,10 @@ Add the project to  to your Package.swift file as a dependency:
     dependencies: [
         .Package(url: "http://github.com/jdfergason/swift-toml", majorVersion: 1)
     ]
+
+for Carthage
+
+    github "sidepelican/swift-toml"
 
 ## Compatibility
 
