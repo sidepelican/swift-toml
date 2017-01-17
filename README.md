@@ -74,9 +74,13 @@ Add the project to  to your Package.swift file as a dependency:
         .Package(url: "http://github.com/jdfergason/swift-toml", majorVersion: 1)
     ]
 
-for Carthage
+for Carthage, specify it in your `Cartfile`
 
-    github "sidepelican/swift-toml"
+    github "jdfergason/swift-toml" ~> v0.4.1
+
+and
+
+    $ carthage update swift-toml --no-use-binaries
 
 ## Compatibility
 
